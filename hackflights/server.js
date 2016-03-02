@@ -19,7 +19,7 @@ app.get('/', function(req, res) {
   });
 });
 
-app.on('stormpath.ready',function(){
+app.on('stormpath.ready', function() {
   console.log('Stormpath Ready');
   app.listen(3000);
 });
